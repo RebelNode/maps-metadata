@@ -31,6 +31,13 @@ Make sure you have python, curl, Node.js and unzip installed (see Dockerfile for
 the full list of dependencies), and then run install script to setup an isolated
 environment for the development.
 
+Note: You need version 18.18 of Node.js. This is easiest to get using Node Version Manager https://github.com/nvm-sh/nvm and then run
+
+```
+nvm install 18.18
+nvm use 18.18
+```
+
 ```
 ./scripts/install.sh
 ```
